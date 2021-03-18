@@ -1,6 +1,6 @@
 {
   "name": "wwu-sqlite-capacitor-storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SQLite capacitor data storage plugin",
   "homepage": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage",
   "main": "dist/esm/index.js",
