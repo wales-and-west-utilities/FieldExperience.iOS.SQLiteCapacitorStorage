@@ -1,0 +1,72 @@
+{
+  "name": "wwu-sqlite-capacitor-storage",
+  "version": "0.1.0",
+  "description": "SQLite capacitor data storage plugin",
+  "homepage": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "lint": "npm run prettier -- --check && npm run swiftlint -- lint",
+    "prettier": "prettier \"**/*.{ts,js}\"",
+    "fmt": "npm run prettier -- --write && npm run swiftlint -- autocorrect",
+    "swiftlint": "node-swiftlint",
+    "build": "npm run clean && tsc && rollup -c rollup.config.js",
+    "clean": "rimraf ./dist",
+    "watch": "tsc --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jeep-localforage": "^1.7.5-4"
+  },
+  "author": "WWU",
+  "devDependencies": {
+    "@capacitor/core": "^2.4.5",
+    "@capacitor/docgen": "0.0.14",
+    "@capacitor/ios": "^2.4.7",
+    "@ionic/prettier-config": "^1.0.1",
+    "@ionic/swiftlint-config": "^1.1.2",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@types/node": "^14.14.19",
+    "electron": "^11.1.0",
+    "husky": "^4.3.6",
+    "np": "^7.2.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-java": "^1.0.1",
+    "pretty-quick": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "swiftlint": "^1.0.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^2.4.5"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "electron/",
+    "CapacitorDataStorageSqlite.podspec"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "prettier": "@ionic/prettier-config",
+  "swiftlint": "@ionic/swiftlint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://apim-fieldexp-iac-dev-ukw.azure-api.net/pwa"
+  },
+  "bugs": {
+    "url": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage.git/issues"
+  }
+}
