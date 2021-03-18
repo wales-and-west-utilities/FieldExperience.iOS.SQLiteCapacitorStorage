@@ -18,11 +18,11 @@
   "dependencies": {
     "jeep-localforage": "^1.7.5-4"
   },
+  "author": "WWU",
   "devDependencies": {
-    "@capacitor/android": "^2.4.5",
     "@capacitor/core": "^2.4.5",
     "@capacitor/docgen": "0.0.14",
-    "@capacitor/ios": "^2.4.5",
+    "@capacitor/ios": "^2.4.7",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
     "@rollup/plugin-node-resolve": "^11.0.1",
@@ -64,7 +64,7 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage.git"
+    "url": "https://apim-fieldexp-iac-dev-ukw.azure-api.net/pwa"
   },
   "bugs": {
     "url": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage.git/issues"
