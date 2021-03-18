@@ -64,7 +64,7 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://apim-fieldexp-iac-dev-ukw.azure-api.net/pwa"
+    "url": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage"
   },
   "bugs": {
     "url": "https://github.com/wales-and-west-utilities/FieldExperience.iOS.SQLiteCapacitorStorage.git/issues"
